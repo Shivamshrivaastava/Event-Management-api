@@ -16,4 +16,40 @@ A robust Node.js + Express backend for managing users, events, and bookings. Bui
 ---
 
 ## 📁 Project Structure
+event-management-backend/
+├── config/
+│   └── db.js
+├── controllers/
+│   ├── auth.controller.js
+│   ├── event.controller.js
+│   └── booking.controller.js
+├── middleware/
+│   ├── auth.middleware.js
+│   └── role.middleware.js
+├── models/
+│   ├── user.model.js
+│   ├── event.model.js
+│   └── booking.model.js
+├── routes/
+│   ├── auth.routes.js
+│   ├── event.routes.js
+│   └── booking.routes.js
+├── .env
+├── app.js
+├── server.js
+├── package.json
+└── README.md
+
+---
+
+## 📦 Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- JWT for Authentication
+- Dotenv for environment configuration
+
+
+
 
